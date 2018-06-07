@@ -21,3 +21,4 @@ end
 beagle = Dog.new
 beagle.breed = "Beagle"
 puts beagle.breed
+end

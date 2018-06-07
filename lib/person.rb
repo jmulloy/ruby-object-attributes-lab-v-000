@@ -21,6 +21,4 @@ class Person
   beyonce = Person.new
   beyonce.job = "Singer"
   puts beyonce.job
-  end
-
 end

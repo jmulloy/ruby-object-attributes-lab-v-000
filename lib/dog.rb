@@ -18,7 +18,7 @@ end
 def breed
   @breed
 end
-beagle = Dog.new
-beagle.breed = "Beagle"
-puts beagle.breed
-end
+snoopy = Dog.new
+snoopy.breed = "Beagle"
+puts snoopy.breed
+

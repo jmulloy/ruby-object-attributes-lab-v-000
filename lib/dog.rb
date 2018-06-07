@@ -6,6 +6,3 @@ def initialize(name)
     @name= "Fido"
   end
 end
-end
-
-end

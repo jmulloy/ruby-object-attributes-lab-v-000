@@ -7,7 +7,20 @@ class Person
     @name
   end
 
-beyonce = Dog.new
-beyonce.name = "Beyonce"
-puts beyonce.name
+  beyonce = Dog.new
+  beyonce.name = "Beyonce"
+  puts beyonce.name
+
+  def job=(person_job)
+  @breed = person_job
+  end
+
+  def job
+  @job
+  end
+  beyonce = Person.new
+  beyonce.job = "Singer"
+  puts beyonce.job
+  end
+
 end

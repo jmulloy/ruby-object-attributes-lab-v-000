@@ -12,7 +12,7 @@ class Person
   puts beyonce.name
 
   def job=(person_job)
-  @breed = person_job
+  @job= person_job
   end
 
   def job
